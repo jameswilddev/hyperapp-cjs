@@ -1,0 +1,43 @@
+{
+  "name": "hyperapp-cjs",
+  "description": "A mirror of Hyperapp, transpiled from a MJS to a CJS using Babel.",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=10.19.0"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameswilddev/hyperapp-cjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@schemastore/package": "0.0.6",
+    "@types/babel__core": "^7.1.12",
+    "@types/jasmine": "3.6.1",
+    "@types/mkdirp": "^1.0.1",
+    "@types/node": "^14.14.7",
+    "@types/tar": "^4.0.3",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@typescript-eslint/parser": "4.7.0",
+    "eslint": "7.13.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "4.0.5"
+  },
+  "scripts": {
+    "run": "ts-node run.ts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "del": "^6.0.0",
+    "mkdirp": "^1.0.4",
+    "tar": "^6.0.5",
+    "to-semver": "^3.0.0",
+    "uuid": "^8.3.1"
+  }
+}

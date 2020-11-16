@@ -1,0 +1,17 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+jobs:
+  commit-changes:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm ci
+    - run: echo ${{ SECRETS.NPMRC }} > ${NPM_CONFIG_USERCONFIG}
+    - run: npm run-script run
