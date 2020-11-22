@@ -33,7 +33,7 @@
     "run": "ts-node run.ts"
   },
   "dependencies": {
-    "@babel/core": "7.12.3",
+    "@babel/core": "7.12.7",
     "@babel/plugin-transform-modules-commonjs": "7.12.1",
     "del": "6.0.0",
     "mkdirp": "1.0.4",
