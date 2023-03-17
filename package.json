@@ -14,7 +14,7 @@
   "devDependencies": {
     "@schemastore/package": "0.0.6",
     "@types/babel__core": "7.1.12",
-    "@types/jasmine": "3.6.2",
+    "@types/jasmine": "3.10.7",
     "@types/mkdirp": "1.0.1",
     "@types/node": "14.14.9",
     "@types/tar": "4.0.4",
